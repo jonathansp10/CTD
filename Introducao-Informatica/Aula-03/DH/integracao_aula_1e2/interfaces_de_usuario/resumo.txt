@@ -1,0 +1,1 @@
+Interfaces de usuários referem-se a qualquer ambiente em que não só por desenvolvedores mas por todos os humanos fazem interacao com maquinas.

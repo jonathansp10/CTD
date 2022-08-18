@@ -1,0 +1,1 @@
+É um tipo de terminal e o VS Code é um editor de texto

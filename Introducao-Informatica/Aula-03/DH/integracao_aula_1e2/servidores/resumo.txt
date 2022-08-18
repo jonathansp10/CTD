@@ -1,0 +1,1 @@
+Servidores são softwares que fornecem a uma rede de computadores dados ou execuções mediante determinaod cenário, como por exemplo, uma requisição de um usuário ou execução programada. 
