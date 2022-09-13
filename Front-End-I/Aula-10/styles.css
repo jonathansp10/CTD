@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.titulo {
+    padding: 20px;
+    background-color:rgba(22, 37, 155, 0.715);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+}
+
+header {
+    background-color: rgb(62, 191, 191);
+    height: 25px;
+    padding: 5px 20px;
+    
+}
+
+main{
+    display:flex ;
+    flex-wrap: wrap;
+    gap: 12px;
+    min-height: 100vh;
+    padding: 40px;
+    justify-content: center;
+    
+}
+
+.hero-card {
+    height: fit-content;
+    width: 400px;
+    background-color: rgba(72, 64, 64, 0.151);
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+    
+    
+   
+}
+
+.hero-card h1 {
+    text-align: center;
+}
+
+
+.hero-card .favorite-icon {
+    
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    left:10px ;
+
+}
+
+.hero-card .background-image {
+
+    width: 100%;
+    
+    
+
+}
+
+.hero-card .profile-image {
+
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+}
+
+.hero-card p {
+margin: 0 40px;
+text-align: center;
+margin: 10px;
+
+}
+
+.button {
+    padding: 25px;
+    background-color: rgba(22, 37, 155, 0.715);
+    margin: 0px 130px;
+    color: white;
+    
+}
+
+footer {
+    background-color:rgba(22, 37, 155, 0.715);
+    padding: 20px;
+    color: white;
+    
+
+}

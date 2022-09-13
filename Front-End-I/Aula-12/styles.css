@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    color: white;
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 20px 20px; 
+    
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+.Hyperlink{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.cabeçalho{ 
+    background-color: rgb(230, 171, 45);
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 20px;
+
+
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 10px;
+    
+}
+
+.List{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+
+.display.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.produtos{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: 80px;
+    margin-left: 4%;
+    
+}
+
+.subtitulo.imagem2{
+    font-size: medium;
+    font-weight: bolder;
+
+}
+
+
+.menu2{
+    text-decoration: none;
+    list-style: none;
+    padding: 25px;
+
+}
+
+
+
+
+
+
+
+
+

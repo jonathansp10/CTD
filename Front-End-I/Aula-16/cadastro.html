@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Heroes</title>
+    <link rel="stylesheet" href="./cad-styles.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="cabecalho"> 20% de desconto em todos os produtos! </h1>
+
+    </header>
+
+    <div class="menu">
+
+        <img class="logo" src="https://images-workbench.99static.com/QbVM306g1DbFr7JQkgZWoGjLCvg=/99designs-contests-attachments/58/58428/attachment_58428782" alt="">
+        <h1 >CardHeroes</h1> 
+    </div>
+
+        <form class="registro">
+
+            <h1 class="titulo">Registro</h1> 
+
+            <div class="controlador">
+                <label for="nome"></label>
+                <input 
+                    type="nome" 
+                    id="nome"
+                    placeholder="Nome e Sobrenome"
+                    minlength="12"
+                    maxlength="25"
+                    required >
+            </div>
+
+            <div class="controlador">
+                <label for="Email"></label>
+                <input 
+                    type="Email" 
+                    id="email"
+                    placeholder="Email"
+                    minlength="12"
+                    maxlength="25"
+                    required >
+            </div>
+
+            <div class="controlador">
+                <label for="Senha"></label>
+                <input 
+                    type="password" 
+                    id="Senha"
+                    placeholder="Senha"
+                    minlength="8"
+                    required >
+            </div>
+
+            <div class="controlador">
+                <label for="Pais"></label>
+                <select id="País" required>
+                    <option value="" selected>País</option>
+                    <option value="1">Brasil</option>
+
+                </select> 
+            </div>
+
+            <div class="botoes">
+                <button class="clean" type="reset"> Limpar</button>
+
+            <button class="logar" type="submit"> Registrar</button>
+            </div>
+            
+        
+            <p class="mensagem">Já possui uma conta?<a href="./index.html" target="_blank"> Entrar </a>.</p>   
+
+
+        </form>
+
+
+        <footer class="rodape">Todos os direitos reservados a Front End I.</footer>
+    
+    </body>
+    </html>
