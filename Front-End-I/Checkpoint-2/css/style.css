@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    box-sizing: border-box;
+    border: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth
+  }
+  
+  nav .main-menu a:hover {
+    color: white !important; 
+}
+
+
+
+@keyframes animation-header {
+
+    0% {
+        opacity: 0;
+
+
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
+
+.navbar-custom{
+    width: 100%;
+    background-color: rgb(0, 0, 0) !important;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    animation-name: animation-header;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    
+
+}
+
+.navbar-nav-custom{
+    width: 100%;
+    justify-content: end;
+    padding-right: 12px;
+    color: white !important;
+    
+}
+
+
+.navbar-nav-custom li a{
+    color: white;
+    font-weight: light;
+}
+
+.active-custom {
+    color: rgb(187, 21, 44) !important;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    gap: 32px;
+}
+
+.logo img{
+    height: 42px;
+    
+}
+
+
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+main{
+    display: block;
+    
+}
+
+
+.module.parallax-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.parallax a button{
+  margin-left: 45%;
+  padding: 20px;
+  background-color: rgb(230, 30, 30);
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+}
+.background1{
+  background-image: url("https://1.bp.blogspot.com/-GjKJGwrzoJc/YPgn-T_sUsI/AAAAAAAAasg/dlyt5q9lnyET10yhD9jcEdzZiuWGjZAjQCLcBGAsYHQ/s1170/netflix-servico-distribuicao-jogos-mobile.jpg");
+}
+.background2{
+  height: 100vh !important;
+    width: 100%;
+  background-image: url("https://wallpaper.dog/large/20493433.jpg");
+}
+
+.module.parallax-1 h1{
+    color: red;
+    font-size: 67px;
+    text-align: center;
+    font-weight: bolder;
+}
+.module.parallax-1 p{
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+  body {
+    height: 100vh;
+  }
+  
+  :root {
+    --transition-time: 0.5s;
+  }
+    
+  /* Configurações do card pai*/
+  .cards-wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4rem;
+    padding: 4rem;
+    margin: 0 auto;
+    width: max-content;
+  }
+  
+  /* configurações do card filho */
+  .card {
+    height: 15em;
+    width: 10em;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 1em;
+    display: flex;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 5em -1em black;
+    transition: all, var(--transition-time);
+    position: relative;
+    overflow: hidden;
+    border: 10px solid #ccc;
+    text-decoration: none;
+  }
+
+  
+  
+  /* Animação do card */
+  .card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  
+  
+  /* Configuração do texto */
+  .textCard {
+    padding: 1em;
+    text-align: left;
+    z-index: 10;
+  }
+  
+  .textCard h1 {
+    color: white;
+    font-weight: 600;
+    display: none;
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.2em;
+  }
+  
+  
+  
+  /* Animações / transição de texto */
+  .overlayCard {
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.250s ease-in-out;
+    z-index: 5;
+  }
+  
+  .card:hover h1 {
+    display: block;
+    text-align: center;
+    animation: 2s anim-lineUp ease-in-out;
+  }
+  
+  
+  
+  .card:hover .overlayCard {
+    background-color: rgba(0, 0, 0, 0.5);
+  
+  }
+  .card-grid-custom{
+    display: flex !important;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  footer {
+    background-color: rgb(66, 63, 63);
+    bottom: 0;
+    width: 100%;
+    padding: 12px;
+
+}
+
+footer .col{
+    text-align: center;
+}
+
+
+
+.rodape img{
+    width: 40px; 
+    height: 40px;
+    margin: 20px;
+    
+    
+}
+
+.rodape h1{
+   font-weight: lighter;
+   padding: 24px;
+   color: white;
+  
+}
+
+.rodape p{
+    font-weight: lighter;
+    padding: 24px;
+    color: white;
+    
+ }
+
+.obs{
+    text-align: center;
+    font-size: 20px;
+ }
+ .col-custom{
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+ }
+ .icon-custom{
+  flex-direction: row;
+ }
+ .form-custom{
+  opacity: 0.95;
+  width:35%;
+  display:flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+ box-sizing: border-box;
+ margin:0 auto;
+ margin-top: -490px;
+ border-radius: 24px;
+ position: relative;
+ padding: 10px 40px;
+ font-size: 20px;
+ }
+ .form-control-custom{
+  width:370px;
+ }
+ .col-custom p{
+  text-align: center;
+ }
+ .title{
+  padding-top: 100px;
+ }
