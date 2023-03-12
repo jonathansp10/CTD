@@ -16,7 +16,7 @@ body{
 
 h1{
     color: #FFFFFF;
-    /* padding: 24px; */
+    
 }
 
 .Cadastro-form{
@@ -46,19 +46,22 @@ h1{
 }
 
 
-
 .descricaoControl input{
     width: 100%;
     height: 209px;
     
-
 }
+
 
 input:hover{
     
     scale: 1.1;
 }
 
+.registrodiv  {
+    display: flex;
+    text-align: left;
+}
 
 .registro{
    padding: 10px 10px;
@@ -69,11 +72,20 @@ input:hover{
    cursor: pointer;
    color: rgba(255, 255, 255, 0.6);
    position: absolute;
-   left: 956px;
+   /* left: 956px; */
+
    width: 312px;
    height: 57px;
    
+   
     
+}
+
+.personagensCriados{
+    padding: 30px;
+    margin: 0   110px;
+    
+
 }
 
 .posts {
@@ -83,25 +95,30 @@ input:hover{
     width: 80%;
     margin: 2em 10%;
   }
+
+  .posts p{
+    text-align: justify;
+  }
   
   .item {
-    width: 30em;
+    width: 20em;
     background-color:#151515;;
     box-sizing: border-box;
     padding: 1.5em;
     margin-bottom: 1em;
-    border-radius: 5px;
-    border: 1px solid lightgray;
+    border-radius: 12px;
     color: rgba(255, 255, 255, 0.6);
   }
   
   .item img {
     width: 100%;
+    border-radius: 12px;
   }
   
   .item h2 {
     font-size: 24px;
     margin-bottom: .2em;
     color: rgba(255, 255, 255, 0.8);
+    gap: 12px;
     
   }
