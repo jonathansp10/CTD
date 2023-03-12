@@ -52,8 +52,6 @@ h1{
     transition: .5s;
 }
 
-
-
 .controlador input{
     width: 100%;
     padding: 12px;
@@ -92,20 +90,15 @@ input:hover{
    cursor: pointer;
    color: rgba(255, 255, 255, 0.6);
    position: absolute;
-   /* left: 956px; */
-
    width: 312px;
    height: 57px;
    
-   
-    
 }
 
 .personagensCriados{
     padding: 30px;
-    margin: 0   110px;
+    margin: 0   7em;
     
-
 }
 
 .posts {
@@ -143,10 +136,24 @@ input:hover{
     
   }
 
+  @media (max-width: 1024px) {
+
+    .Cadastro-form{
+        width: 810px;
+        
+    }
+  }
+
  @media (max-width: 768px) {
 
     .Cadastro-form{
         width: 550px;
+        
+    }
+
+    .personagensCriados{
+        margin: 0 4em;
+        font-size: 16px !important;
     }
 
  }
@@ -155,6 +162,25 @@ input:hover{
 
     .Cadastro-form{
         width: 406px;
+        
+    }
+
+    .personagensCriados{
+
+        margin: 0 2em;
+        font-size: 15px !important;
+    }
+
+ }
+
+ @media (max-width: 375px){
+
+    .personagensCriados{
+
+        margin: 0 1em;
+        font-size: 14px !important;
+        text-align: justify;
+
     }
 
  }
