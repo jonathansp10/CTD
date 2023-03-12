@@ -18,27 +18,40 @@
             <div class="controlador">
                 <input 
                     type="text" 
+                    id="titulo"
                     placeholder="Titulo"
-                    minlength="6"
-                    required 
+                    
                 >
+
+                <span class = "nameError" role="alert" id="tituloError" aria-hidden="true">
+                    Por favor, preencha corretamente o campo Título
+                </span>
+
             </div>
             
             
             <div class="controlador">
                 <input type="url" 
-                id="URL"
-                minlength="8"
+                id="url"
                 placeholder="URL"
                 >
+            
+                <span class = "nameError" role="alert" id="urlError" aria-hidden="true">
+                    Por favor, preencha corretamente o campo URL
+                </span>
     
             </div>
 
             <div class="controlador descricaoControl">
                 <!-- veriifcar possibilidade de usar o textarea no lugar deste input -->
                 <input type="text" 
+                id="descricao"
                 placeholder="Descrição"
                 >
+
+                <span class = "nameError" role="alert" id="descricaoError" aria-hidden="true">
+                    Por favor, preencha corretamente o campo Descrição
+                </span>
 
     
             </div>

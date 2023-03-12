@@ -51,11 +51,31 @@ for (let item of itens) {
     `
 
 }
+const campos = [
+
+    "titulo", "url", "descricao"
+
+]
 
 let formulario = document.querySelector(".Cadastro-form");
 formulario.addEventListener("submit", function(event) {
     console.log("Cadastro realizado com sucesso!")
     console.log(event)
    event.preventDefault()
+
+   for(let campo of campos) {
+    const tituloField = document.getElementById(campo);
+    let valid = true;
+
+  if (!tituloField.value) {
+    const nameError = document.getElementById(`${campo}Error`);
+    nameError.classList.add("visible");
+    tituloField.classList.add("invalid");
+    nameError.setAttribute("aria-hidden", false);
+    nameError.setAttribute("aria-invalid", true);
+  }
+  
+   }
+   return valid;
 
 })
