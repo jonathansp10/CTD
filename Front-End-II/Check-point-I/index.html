@@ -17,49 +17,32 @@
 
        
             <div class="controlador">
-                <input 
-                    type="text" 
-                    id="titulo"
-                    placeholder="Titulo"
-                    
-                >
+                <input type="text" id="titulo" placeholder="Titulo" minlength="9"required >
+                <small>Preencha corretamente o campo Título</small>
 
-                <span class = "nameError" role="alert" id="tituloError" aria-hidden="true">
-                    Por favor, preencha corretamente o campo Título
-                </span>
 
             </div>
             
             
             <div class="controlador">
-                <input type="url" 
-                id="url"
-                placeholder="URL"
-                >
+                <input type="url" id="url" placeholder="URL" minlength="9" required >
+                <small>Preencha corretamente o campo URL</small>
             
-                <span class = "nameError" role="alert" id="urlError" aria-hidden="true">
-                    Por favor, preencha corretamente o campo URL
-                </span>
     
             </div>
 
+
             <div class="controlador descricaoControl">
-                <!-- veriifcar possibilidade de usar o textarea no lugar deste input -->
-                <input type="text" 
-                id="descricao"
-                placeholder="Descrição"
-                >
+               
+                <input type="text" id="descricao" placeholder="Descrição"minlength="9" required >
+                <small>Preencha corretamente o campo Descrição</small>
 
-                <span class = "nameError" role="alert" id="descricaoError" aria-hidden="true">
-                    Por favor, preencha corretamente o campo Descrição
-                </span>
 
-    
             </div>
 
             <div class="registrodiv">
 
-                <button class="registro" type="submit" id="postar" > Cadastrar</button>
+                <button class="registro" type="submit" id="postar" disabled > Cadastrar </button>
            
             </div>
 
@@ -70,6 +53,8 @@
     <div class="personagensCriados">
 
         <h1 class="titulo-personagens">Personagens Criados</h1>
+
+        <!-- <h2>Não existem personagens criados.</h2> -->
     
     </div>
     
