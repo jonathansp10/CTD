@@ -1,0 +1,5 @@
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status 
+
+https://http.cat
+
+sites de significado dos erros.
